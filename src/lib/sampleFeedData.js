@@ -1,0 +1,53 @@
+export const SOURCE_COLORS = {
+  CSSF: { bg: "#003DA5", text: "#ffffff" },
+  ESMA: { bg: "#00897B", text: "#ffffff" },
+  ALFI: { bg: "#8B1A4A", text: "#ffffff" },
+  LPEA: { bg: "#E65100", text: "#ffffff" },
+};
+
+export const SAMPLE_FEED_ITEMS = [
+  {
+    id: 1,
+    title: "CSSF updates FAQ on UCI Part II reporting requirements",
+    source: "CSSF",
+    date: "22 March 2026",
+    priority: "high",
+    tags: ["UCITS", "Reporting", "FAQ"],
+    summaryPreview: "The CSSF has revised its FAQ document on UCI Part II funds, clarifying quarterly reporting deadlines and introducing a new template for annual disclosures…",
+    summaryFull: "The CSSF has revised its FAQ document on UCI Part II funds, clarifying quarterly reporting deadlines and introducing a new template for annual disclosures. Key changes include revised timelines for Annex IV submissions (now T+20 business days) and updated XBRL taxonomy requirements for 2026 filings. Fund administrators must update their reporting workflows by Q2 2026.",
+    whyItMatters: "If you manage UCI Part II funds, you need to update your reporting calendar by Q3 2026. The revised Annex IV timeline is stricter — build in extra buffer now to avoid late filing penalties.",
+  },
+  {
+    id: 2,
+    title: "ESMA publishes final guidelines on fund naming conventions",
+    source: "ESMA",
+    date: "15 March 2026",
+    priority: "high",
+    tags: ["ESG", "Fund Naming", "UCITS", "AIF"],
+    summaryPreview: "ESMA's final guidelines on fund names using ESG or sustainability-related terms take effect 21 May 2026 for new funds and 21 November 2026 for existing funds…",
+    summaryFull: "ESMA's final guidelines on fund names using ESG or sustainability-related terms take effect 21 May 2026 for new funds (21 November 2026 for existing). Funds using terms like 'sustainable', 'green', or 'ESG' must meet quantitative thresholds: minimum 80% of investments aligned with ESG characteristics. Exclusion criteria also apply — funds cannot hold companies deriving revenue from controversial weapons, tobacco, or fossil fuel exploration.",
+    whyItMatters: "Check your fund names now. If any of your UCITS or AIFs use ESG-related terms, you have until November to comply or rename. This affects marketing materials, KIIDs, prospectuses, and distribution agreements across the EU.",
+  },
+  {
+    id: 3,
+    title: "ALFI releases updated tax guide for Luxembourg investment funds",
+    source: "ALFI",
+    date: "10 March 2026",
+    priority: "medium",
+    tags: ["Tax", "Compliance"],
+    summaryPreview: "ALFI has published the 2026 edition of its Luxembourg Investment Fund Tax Guide, incorporating recent legislative changes and updated FATCA/CRS guidance…",
+    summaryFull: "ALFI has published the 2026 edition of its Luxembourg Investment Fund Tax Guide, incorporating recent legislative changes and updated FATCA/CRS guidance. Notable updates include revised subscription tax calculations for ESG-qualifying funds, new guidance on the optional regime for institutional investors, and updated withholding tax treatment for cross-border distributions.",
+    whyItMatters: "Fund accountants and tax teams should review the updated guide before year-end. The revised subscription tax treatment for ESG funds could mean material savings if your fund qualifies — worth checking with your tax advisor.",
+  },
+  {
+    id: 5,
+    title: "LPEA publishes Q1 2026 carried interest benchmarking report",
+    source: "LPEA",
+    date: "5 March 2026",
+    priority: "low",
+    tags: ["Private Equity", "Carried Interest"],
+    summaryPreview: "The Luxembourg Private Equity Association has released its Q1 2026 benchmarking report on carried interest structures across Luxembourg-domiciled PE funds…",
+    summaryFull: "The Luxembourg Private Equity Association has released its Q1 2026 benchmarking report on carried interest structures across Luxembourg-domiciled PE funds. The report covers hurdle rate benchmarks (typically 6-8% for buyout, 5-7% for venture), waterfall structures, and emerging practices around ESG-linked carry adjustments. 68% of surveyed GPs have introduced or plan to introduce sustainability-linked carry clauses by 2027.",
+    whyItMatters: "PE fund managers and legal counsel should benchmark their existing carry structures against the report's findings. The trend towards ESG-linked carry is accelerating — early movers are better positioned for institutional LP mandates.",
+  },
+];
