@@ -1,0 +1,8 @@
+[project]
+id = "pxoywwzabgcjjfticsyf"
+
+[functions.scrape-regulations]
+verify_jwt = false
+
+[functions.notify-users]
+verify_jwt = false
