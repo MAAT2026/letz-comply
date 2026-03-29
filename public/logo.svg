@@ -1,4 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
-  <rect width="48" height="48" rx="8" fill="#0891B2"/>
-  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="white">LC</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Outer red circle -->
+  <circle cx="100" cy="100" r="85" stroke="#E53E3E" stroke-width="6" fill="none"/>
+  <!-- Inner light blue circle -->
+  <circle cx="100" cy="100" r="65" stroke="#63B3ED" stroke-width="4" fill="none"/>
+  <!-- Decorative arcs - light blue -->
+  <path d="M 155 40 A 80 80 0 0 1 175 80" stroke="#63B3ED" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 165 95 A 80 80 0 0 1 160 130" stroke="#63B3ED" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 40 155 A 80 80 0 0 1 30 120" stroke="#63B3ED" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 55 55 A 65 65 0 0 0 38 85" stroke="#63B3ED" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Letter L - light blue -->
+  <text x="72" y="128" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="72" fill="#63B3ED">L</text>
+  <!-- Letter C - red -->
+  <text x="105" y="128" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="72" fill="#E53E3E">C</text>
 </svg>
